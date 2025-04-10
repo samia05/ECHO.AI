@@ -8,7 +8,7 @@ from google.colab import drive
 drive.mount('/content/drive')
 
 # Checks all available Gemini models. Note this code is a one time assessment of available models.
-genai.configure(api_key="AIzaSyDsDiVWBYO5v_tFthjlrPfG6qA66vQFzco")
+genai.configure(api_key=" ") # personalize to connect to your Google Drive!
 
 import google.generativeai as genai_modules
 for m in genai_modules.list_models():
